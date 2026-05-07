@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": false
+    "analytics": "f9cc7183-5eaa-49ff-8316-4cd8bda7d68a"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "rotomdex-front": {
+    "front-rotomdex": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "rotomdex-front:build:production"
+              "buildTarget": "front-rotomdex:build:production"
             },
             "development": {
-              "buildTarget": "rotomdex-front:build:development"
+              "buildTarget": "front-rotomdex:build:development"
             }
           },
           "defaultConfiguration": "development"
